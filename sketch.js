@@ -15,9 +15,7 @@ function setup() {
   car = createSprite(90,250,30,30);
   car.addImage(whiteCar);
   car.scale = 0.4;
-  car.debug = true;
   wall = createSprite(1500,200,60,200);
-  wall.debug = true;
   wall.addImage(wallI);
   wall.scale = 0.5;
   block = createSprite(800,385,750,20);
